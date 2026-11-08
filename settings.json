@@ -2,7 +2,7 @@
   "name": "24/7 BOT",
   "bot-account": {
     "username": "__alex______",
-    "password": "",
+    "password": "BOTPASSWORD",
     "type": "offline"
   },
   "server": {
@@ -20,7 +20,7 @@
   "utils": {
     "auto-auth": {
       "enabled": true,
-      "password": "chalol78"
+      "password": "BOTPASSWORD"
     },
     "anti-afk": {
       "enabled": true,
@@ -28,8 +28,8 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": false,
-      "repeat-delay": 120,
+      "repeat": true,
+      "repeat-delay": 0,
       "messages": [
         "/login BOTPASSWORD "
       ]
