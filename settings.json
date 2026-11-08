@@ -1,7 +1,7 @@
 {
   "name": "24/7 BOT",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "24/7 BOT",
     "password": "",
     "type": "offline"
   },
@@ -42,12 +42,12 @@
   "movement": {
     "enabled": true,
     "circle-walk": {
-      "enabled": true,
+      "enabled": false,
       "radius": 4,
       "speed": 3000
     },
     "look-around": {
-      "enabled": true,
+      "enabled": false,
       "interval": 5000
     },
     "random-jump": {
@@ -72,11 +72,11 @@
   },
   "discord": {
     "enabled": false,
-    "webhookUrl": "YOUR_DISCORD_WEBHOOK_URL_HERE",
+    "webhookUrl": "https://discord.com/api/webhooks/1568892241454563471/CoEsYdiiazCyCMsnAOJdJ4EceCwe60iDHmU10faMjvgMoT-5jsI-rOJkH-DkJF_8xkeJ",
     "events": {
       "connect": true,
       "disconnect": true,
-      "chat": false
+      "chat": true
     }
   },
   "chat": {
